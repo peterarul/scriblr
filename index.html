@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ScriblrD3.js</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Fancy Writing Pad">
+  <meta name="author" content="">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style type="text/css">
+    body {
+      background: #ffffff;
+    }
+    circle {
+      fill: none;
+      stroke-width: 5px;
+    }
+    rect {
+      fill:none;
+      stroke-width:10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="canvas"></div>
+
+  <nav class="navbar" style="background-color: #e3f2fd; opacity: 0.5;">
+    <!-- Navbar content -->
+    <a class="navbar-brand" href="#">ScriblrD3.js</a>
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" onclick="erase();">Clear <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="geoplot.html">GeoPopulationPlot</a>
+      </li>
+      <li class="nav-item">
+        <a target="_blank" class="nav-link" href="https://github.com/peterarul">Git</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <script type="text/javascript" src="js/scribblr.js"></script>
+</body>
+
+</html>
